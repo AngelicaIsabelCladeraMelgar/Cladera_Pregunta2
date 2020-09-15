@@ -12,5 +12,11 @@ namespace Cladera_Pregunta2.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Cladera_Pregunta2.Models.Student> Students { get; set; }
+
+        public System.Data.Entity.DbSet<Cladera_Pregunta2.Models.Enrollment> Enrollments { get; set; }
+
+        public System.Data.Entity.DbSet<Cladera_Pregunta2.Models.Course> Courses { get; set; }
     }
 }
